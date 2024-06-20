@@ -52,11 +52,13 @@ give some suggestion which food item names and calories with it so i can replace
 if submit and image is not None:
     response = get_gemini_response(input_prompt, image)
     st.header("Advice from AI-Nutritionist : 🍴")
-    st.write(response)
-    if st.button('Click and get DIET PLAN !'):
-        js = "window.location.href = 'https://ai-nutritionist-by-kartavya.streamlit.app/'"
-        html = f"<script>{js}</script>"
-        st.markdown(html, unsafe_allow_html=True)
+    with st.container(border=True):
+        st.write(response)
+        st.write("----------------------------------------------------------------------")
+        link='AI-Nutritionist Doctor 💪❤️ : [Click and get a healthy DIET PLAN !](https://ai-dietplan-doctor-by-kartavya.streamlit.app/)'
+        st.markdown(link,unsafe_allow_html=True)
+
+
 
 st.header('', divider='rainbow')
 with st.container(border=True):
@@ -66,3 +68,5 @@ with st.container(border=True):
 
     link='PORTFOLIO : [CLICK ME](https://mydawjbhdas.my.canva.site/aiwithkartavya)'
     st.markdown(link,unsafe_allow_html=True)
+    
+    
