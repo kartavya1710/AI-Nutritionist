@@ -112,19 +112,19 @@ if submit:
         st.write("---------------------------------------------------------------------------------------------------")
         with st.container(border=True):
             st.write(response)
-            if response:
-                # Create a download button for the generated plan
-                st.download_button(
-                    label="Download Your Plan",
-                    data=response,
-                    file_name="generated_plan.txt",
-                    mime="text/plain"
-                )
-            # Button to redirect to external website
-                st.write("----------------------------------------------------------------------")
-                html ='AI-Calories-doctor : [Click a photo and check whether food is healthy or not!](https://ai-calories-advisor-by-kartavya.streamlit.app/)'
-                st.markdown(html, unsafe_allow_html=True)
             
+    # Create a download button for the generated plan
+    st.download_button(
+        label="Download Your Plan",
+        data=response,
+        file_name="generated_plan.txt",
+        mime="text/plain"
+    )
+# Button to redirect to external website
+st.write("----------------------------------------------------------------------")
+html ='AI-Calories-doctor : [Click a photo and check whether food is healthy or not!](https://ai-calories-advisor-by-kartavya.streamlit.app/)'
+st.markdown(html, unsafe_allow_html=True)
+        
 
 st.header('', divider='rainbow')
 with st.container(border=True):
