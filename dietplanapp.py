@@ -136,7 +136,7 @@ if submit:
             
             # Button to redirect to app.py
         if st.button('Click a photo and check weather food is healthy or not !'):
-            js = "window.location.href = 'https://ai-diet-plan-by-kartavya.streamlit.app/'"
+            js = "window.location.href = https://ai-diet-plan-by-kartavya.streamlit.app/"
             html = f"<script>{js}</script>"
             st.markdown(html, unsafe_allow_html=True)
 
