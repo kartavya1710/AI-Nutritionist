@@ -54,7 +54,7 @@ if submit and image is not None:
     st.header("Advice from AI-Nutritionist : 🍴")
     st.write(response)
     if st.button('Click and get DIET PLAN !'):
-        js = "window.location.href = 'app.py'"
+        js = "window.location.href = 'https://ai-nutritionist-by-kartavya.streamlit.app/'"
         html = f"<script>{js}</script>"
         st.markdown(html, unsafe_allow_html=True)
 
