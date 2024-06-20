@@ -54,9 +54,9 @@ if submit and image is not None:
     st.header("Advice from AI-Nutritionist : 🍴")
     with st.container(border=True):
         st.write(response)
-        st.write("----------------------------------------------------------------------")
-        link='AI-Nutritionist Doctor 💪❤️ : [Click and get a healthy DIET PLAN !](https://ai-dietplan-doctor-by-kartavya.streamlit.app/)'
-        st.markdown(link,unsafe_allow_html=True)
+st.write("----------------------------------------------------------------------")
+link='AI-Nutritionist Doctor 💪❤️ : [Click and get a healthy DIET PLAN !](https://ai-dietplan-doctor-by-kartavya.streamlit.app/)'
+st.markdown(link,unsafe_allow_html=True)
 
 
 
