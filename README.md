@@ -33,22 +33,18 @@ Welcome to GymGPT, the AI-powered application designed to help you achieve your 
    ```
 4. Run the Streamlit application:
    ```bash
-   streamlit run caloriesapp.py
    streamlit run dietplanapp.py
+   streamlit run caloriesapp.py
    ```
 
 ## Usage
 
-- **Main Interface**: Interact with the application through `finapp.py`.
-- **Redirect to Additional Features**: Use the provided link to access `app.py` for extended functionalities like image upload and detailed calorie information.
+- **Main Interface**: Interact with the application through `dietplanapp.py`.
+- **Redirect to Additional Features**: Use the provided link to access `caloriesapp.py` for extended functionalities like image upload and detailed calorie information.
 
 ## Contributions
 
 We welcome contributions! Feel free to fork the repository, create a new branch, and submit a pull request with your improvements. Whether it's new features, bug fixes, or optimizations, your contributions are valuable.
-
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
 ## Contact
 
