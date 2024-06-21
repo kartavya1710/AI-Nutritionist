@@ -33,8 +33,8 @@ Welcome to GymGPT, the AI-powered application designed to help you achieve your 
    ```
 4. Run the Streamlit application:
    ```bash
-   streamlit run finapp.py
-   streamlit run app.py
+   streamlit run caloriesapp.py
+   streamlit run dietplanapp.py
    ```
 
 ## Usage
