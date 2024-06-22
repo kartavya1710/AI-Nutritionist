@@ -60,8 +60,8 @@ Use suitable emojis in the whole response to motivate the user.
 
 ####### Streamlit initialization ########
 st.set_page_config(
-    page_title="GymGPT",
-    page_icon="💪",
+    page_title="Nutritionist Doctor",
+    page_icon="🧑‍⚕️",
     layout="centered",
 )
 
